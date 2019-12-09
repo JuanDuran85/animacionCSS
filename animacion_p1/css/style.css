@@ -30,6 +30,6 @@
     position: absolute;
     width: 100%;
     height: 100vh; /*viewport height, porque en % no agarra por la posicion absoluta*/
-    background: url(../img/background1.jpg);
+    background: url(../img/background.jpg);
 }
 
