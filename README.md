@@ -1,3 +1,3 @@
 # animacionCSS
-Animacion con CSS puro para Slider de imagenes.
-Ejemplo realizado en curso de CSS3
+Animacion con CSS puro para Slider, menú, botoneras y galerias de imagenes.
+Ejemplos realizados en curso de CSS3
