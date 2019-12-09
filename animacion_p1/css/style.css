@@ -6,57 +6,60 @@
 /*Agregando animacion con keyframes*/
 @keyframes animacion1 {
     0% {
-        opacity: 1;
+        /* opacity: 1; */
+        left: 0%;
     }
 
     50% {
-        opacity: 0;
+        /* opacity: 0; */
+        left: -100%;
     }
 
     100% {
-        opacity: 1;
+        /* opacity: 1; */
+        left: 0%;
     }
 }
 
 @-moz-keyframes animacion1 {
     0% {
-        opacity: 1;
+        left: 0%;
     }
 
     50% {
-        opacity: 0;
+        left: -100%;
     }
 
     100% {
-        opacity: 1;
+        left: 0%;
     }
 }
 
 @-o-keyframes animacion1 {
     0% {
-        opacity: 1;
+        left: 0%;
     }
 
     50% {
-        opacity: 0;
+        left: -100%;
     }
 
     100% {
-        opacity: 1;
+        left: 0%;
     }
 }
 
 @-webkit-keyframes animacion1 {
     0% {
-        opacity: 1;
+        left: 0%;
     }
 
     50% {
-        opacity: 0;
+        left: -100%;
     }
 
     100% {
-        opacity: 1;
+        left: 0%;
     }
 }
 
@@ -89,8 +92,8 @@
     height: 100vh; /*viewport height, porque en % no agarra por la posicion absoluta*/
     background: url(../img/background.jpg);
     animation: animacion1 10s;
-    -moz-animation: animacion1 10s;
-    -o-animation: animacion1 10s;
-    -webkit-animation: animacion1 10s;
+    -moz-animation: animacion1 10s cubic-bezier(1, -0.5, 0.5, 1);
+    -o-animation: animacion1 10s cubic-bezier(1, -0.5, 0.5, 1);
+    -webkit-animation: animacion1 10s cubic-bezier(1, -0.5, 0.5, 1);
 }
 
