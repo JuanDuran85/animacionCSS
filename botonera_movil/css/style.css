@@ -23,3 +23,16 @@
 	border: 1px solid white;
 	background: silver;
 }
+
+#labelMovil span {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: url('../img/boton1.jpg') no-repeat;
+	margin: 5px;
+}
+
+input {
+	display: none;
+}
+
