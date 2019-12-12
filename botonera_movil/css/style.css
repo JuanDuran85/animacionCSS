@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+/*Iniciando botonera movil*/
+#botoneraMovil {
+	position: absolute;
+	width: 90%;
+	height: auto;
+	background: white;
+	top: 50px;
+	left: 0;
+}
+
+#botoneraMovil ul li {
+	width: 100%;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid white;
+	background: silver;
+}
