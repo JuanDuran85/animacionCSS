@@ -30,9 +30,32 @@
 	height: 40px;
 	background: url('../img/boton1.jpg') no-repeat;
 	margin: 5px;
+	cursor: pointer;
 }
 
-input {
+#botonMovil {
 	display: none;
+}
+
+#labelMovil h2 {
+	position: absolute;
+	top: 10px;
+	left: 60px;
+}
+
+#labelMovil span:hover {
+	background: url('../img/boton2.jpg') no-repeat;
+
+}
+
+/*usando selector adyacente +*/
+#menuMovil input:checked + #labelMovil span {
+	background: url('../img/boton3.jpg') no-repeat;
+}
+
+/*usando selector hermano ~ */
+
+#menuMovil input:checked ~ #botoneraMovil {
+	left: 100%;
 }
 
