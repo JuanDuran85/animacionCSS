@@ -13,7 +13,8 @@
 	height: auto;
 	background: white;
 	top: 50px;
-	left: 0;
+	left: -100%;
+	transition: left 0.5s;
 }
 
 #botoneraMovil ul li {
@@ -22,6 +23,10 @@
 	text-align: center;
 	border: 1px solid white;
 	background: silver;
+}
+
+#botoneraMovil ul li:hover {
+	background: rgba(100, 100, 100, .5);
 }
 
 #labelMovil span {
@@ -56,6 +61,6 @@
 /*usando selector hermano ~ */
 
 #menuMovil input:checked ~ #botoneraMovil {
-	left: 100%;
+	left: 0;
 }
 
