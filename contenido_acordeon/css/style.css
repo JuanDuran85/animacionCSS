@@ -35,3 +35,24 @@
     padding: 5%;
     width: 90%;
 }
+
+/*se esconde el contenido dentro de los bloques*/
+#acordeon div {
+    position: relative;
+    height: 0;
+    overflow: scroll;
+    transition: height 0.5s;
+}
+
+#bloque1:checked ~ #cont1{
+    height: 400px;
+}
+
+#bloque2:checked ~ #cont2{
+    height: 400px;
+}
+
+#bloque3:checked ~ #cont3{
+    height: 400px;
+}
+
