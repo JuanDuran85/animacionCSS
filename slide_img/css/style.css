@@ -26,7 +26,7 @@
 
 #slide ul li img {
     position: absolute; /*para que este una imagen sobre la otra*/
-    opacity: 0.5;
+    opacity: 0;
     left: 0;
     transition: opacity 1s ease-in-out;
 }
@@ -56,6 +56,26 @@
 
 #slide ul li input {
     display: none;
+}
+
+#boton-1:checked ~ #foto01 {
+    opacity: 1;
+}
+
+#boton-2:checked ~ #foto02 {
+    opacity: 1;
+}
+
+#boton-3:checked ~ #foto03 {
+    opacity: 1;
+}
+
+#boton-4:checked ~ #foto04 {
+    opacity: 1;
+}
+
+#boton-5:checked ~ #foto05 {
+    opacity: 1;
 }
 
 #botoneraSlide {
