@@ -15,9 +15,45 @@
     height: 301px;
 }
 
+#slide ul {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height: 301px;
+    background: url(../img/slide01.jpg);
+}
+
 #slide ul li img {
     position: absolute; /*para que este una imagen sobre la otra*/
     opacity: 0.5;
     left: 0;
-    transition: opacitu 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#slide ul li label {
+    position: relative;
+    top: 304px;
+    left: 440px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    z-index: 3;
+    margin: 0 2px;
+    background: blue;
+    border: 3px solid white;
+    border-radius: 100%;
+}
+
+#slide ul li input {
+    display: none;
+}
+
+#botoneraSlide {
+    position: relative;
+    background: url(../img/backBotonesSlide.jpg);
+    width: 1000px;
+    height: 26x;
+    margin: auto;
 }
