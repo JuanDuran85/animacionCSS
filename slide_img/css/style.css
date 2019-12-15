@@ -46,6 +46,14 @@
     border-radius: 100%;
 }
 
+#slide ul li label:hover {
+    background: #aaaaaa;
+}
+
+#slide ul li label:active {
+    background: magenta;
+}
+
 #slide ul li input {
     display: none;
 }
