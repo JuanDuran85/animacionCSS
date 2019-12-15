@@ -6,3 +6,18 @@
     font-family: sans-serif;
 }
 
+/*Iniciando el Slide*/
+
+#slide {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 301px;
+}
+
+#slide ul li img {
+    position: absolute; /*para que este una imagen sobre la otra*/
+    opacity: 0.5;
+    left: 0;
+    transition: opacitu 1s ease-in-out;
+}
