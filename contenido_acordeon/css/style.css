@@ -5,3 +5,19 @@
     text-decoration: none;
     font-family: sans-serif;
 }
+
+/*Iniciando Acordeon*/
+
+#acordeon input {
+    display: block;
+}
+
+#acordeon label {
+    display: block;
+    background-color: grey;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+}
