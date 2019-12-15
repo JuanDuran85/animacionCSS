@@ -21,3 +21,17 @@
     line-height: 80px;
     cursor: pointer;
 }
+
+#acordeon h1 {
+    padding: 5%;
+} 
+
+#acordeon img {
+    padding: 0% 5%;
+}
+
+#acordeon p {
+    text-align: justify;
+    padding: 5%;
+    width: 90%;
+}
