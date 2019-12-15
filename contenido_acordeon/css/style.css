@@ -9,7 +9,7 @@
 /*Iniciando Acordeon*/
 
 #acordeon input {
-    display: block;
+    display: none;
 }
 
 #acordeon label {
