@@ -35,3 +35,28 @@
     top: 22px;
     transition: all 0.2s ease-out;
 }
+
+/*trabajando con los h1 de la galeria*/
+.galeria .cajaGaleria li div h1 {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+
+/*trabajando con los p de la galeria*/
+.galeria .cajaGaleria li div p {
+    position: absolute;
+    z-index: 1;
+    bottom: 4px;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 97.2%;
+    line-height: 60px;
+    padding-left: 20px;
+}
+
+
