@@ -1,3 +1,4 @@
+/*formateando el estilo*/
 * {
     margin: 0;
     padding: 0;
@@ -5,3 +6,24 @@
     list-style: none;
     text-decoration: none;
 }
+
+/*trabajando con la clase galeria en el section*/
+.galeria {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 299px;
+    background: white;
+}
+
+/*trabajando con la clase cajagaleria en los ul*/
+.cajaGaleria {
+    position: relative;
+    width: 935px;
+    margin: auto;
+    top: 18px;
+    height: 262px;
+    background: white;
+    box-shadow: 0px 0px 30px #222222;
+}
+
