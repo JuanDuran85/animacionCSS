@@ -81,14 +81,19 @@
     display: none;
 }
 
+/*mostrando imagenes al hacer clic*/
 #btn01:checked ~ #galeria01 {
     opacity: 1;
+    z-index: 1;
 }
 
 #btn02:checked ~ #galeria02 {
     opacity: 1;
+    z-index: 1;
 }
 
 #btn03:checked ~ #galeria03 {
     opacity: 1;
+    z-index: 1;
 }
+
